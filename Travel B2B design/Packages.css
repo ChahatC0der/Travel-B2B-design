@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    /* overflow-x: hidden; */
+}
+
+header {
+    padding: 0.8rem 0;
+}
+
+header {
+    background-color: rgb(226, 244, 252);
+}
+canvas{color:rgb(15, 15, 15);}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul li{
+   list-style-type: none;
+   display: inline-block;
+}
+
+.button-91 {
+    color: #fff;
+    padding: 15px 25px;
+    background-color: #38D2D2;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+    cursor: pointer;
+  }
+
+  .banner-search input::placeholder{
+      color:white;
+      border: none;
+      background: transparent
+  }
+
+  .banner-search input.text{
+    /* color:white */
+    border: none;
+  }
+
+  .banner-search button,.pack-price button{
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(36, 218, 231) 0%, rgb(5, 151, 248) 50%, rgb(1, 132, 255) 100%);
+    color: #ffff
+  }
+
+  .pack-feature ul{
+    list-style: none;
+  }
+
+  .pack-feature ul li{
+    display: inline;
+  }
+
+  .pack-feature ul li::before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\25C9";
+    color: rgb(8, 185, 255);
+	
+    margin-right: 10px; 
+  }
+
+  .review-tag .review-star-tag::after{
+    font-family: 'Font Awesome 5 Free';
+    content: "\2605";
+    color: white;
+	
+    margin-right: 5px; 
+  }
+
+  .rangeslider input{
+    -webkit-appearance: none;
+    background: none;
+    height:15px;
+    pointer-events: none;
+  }
+
+  input[type="range"]::-webkit-slider-thumb{
+    height: 17px;
+    width:17px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    background: #38D2D2;
+    pointer-events: auto;
+  }
